@@ -1,5 +1,5 @@
 
-### Harry Potter character finder
+### Harry Potter character search engine
 
 
 The exercise consists of developing a web page with a list of Harry Potter characters, which we can filter by the house name and gender of the character. 
