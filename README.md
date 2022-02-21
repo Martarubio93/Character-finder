@@ -15,6 +15,7 @@ You will also see any lint errors in the console.
 
 ## Structure 
 
+```
 src
  ├─ components
  |  ├─ App.js
@@ -40,7 +41,7 @@ src
  | 
  |
  └─ index.js
-
+```
 
 ### Tech Stack
 - React
