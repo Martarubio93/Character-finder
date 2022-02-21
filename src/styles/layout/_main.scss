@@ -1,0 +1,160 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px;
+  &__labelName {
+    color: white;
+
+    @media (min-width: 768px) {
+      margin: 10px;
+      font-size: 20px;
+    }
+  }
+
+  &__inputName {
+    outline: none;
+    background-color: gray;
+    border: solid 3px #d4af37;
+    color: white;
+    cursor: pointer;
+    width: 220px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+
+    @media (min-width: 768px) {
+      width: 400px;
+      height: 45px;
+      font-size: 20px;
+      margin: 30px;
+    }
+  }
+
+  &__labelHouse {
+    color: white;
+
+    @media (min-width: 768px) {
+      margin: 10px;
+      font-size: 20px;
+    }
+  }
+  &__select {
+    outline: none;
+    background-color: gray;
+    border: solid 3px #d4af37;
+    width: 220px;
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    @media (min-width: 768px) {
+      width: 400px;
+      height: 45px;
+      margin-left: 20px;
+      font-size: 18px;
+    }
+  }
+}
+
+.list_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 35px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+  }
+
+  @media (min-width: 1300px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card {
+  text-decoration: none;
+  background-color: #d4af37;
+  &:hover {
+    box-shadow: 0px 0px 5px 5px #d4af37;
+  }
+  &__image {
+    object-fit: cover;
+    width: 230px;
+    height: 370px;
+
+    @media (min-width: 768px) {
+      width: 350px;
+      height: 480px;
+    }
+  }
+  &__title {
+    &__text {
+      margin: 5px;
+    }
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  margin-top: 80px;
+}
+
+.NotFoundList {
+  color: white;
+}
+
+.containerNotFound {
+  color: black;
+  font-size: 20px;
+}
+
+.iconBack {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.btnReset {
+  outline: none;
+  border: none;
+  background-color: #d4af37;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+  margin: 20px;
+  &:hover {
+    background-color: white;
+    color: #d4af37;
+  }
+}
+
+.checkRadios {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  &__label {
+    color: white;
+    margin-right: 20px;
+  }
+
+  &__input {
+    margin: 10px;
+  }
+}
